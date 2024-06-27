@@ -1,0 +1,5 @@
+print(Kasus_Covid_Jakarta_df.isnull().sum())
+Kasus_Covid_Jakarta_df.describe()
+Kasus_Covid_Jakarta_df.dtypes
+Kasus_Covid_Jakarta_df.describe(include='all')
+Kasus_Covid_Jakarta_df["periode_data"].value_counts()
