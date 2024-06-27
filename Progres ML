@@ -1,0 +1,12 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy  as np
+from google.colab import drive
+import seaborn as sns
+from sklearn import preprocessing
+from sklearn.naive_bayes import GaussianNB
+drive.mount('/content/drive')
+Kasus_Covid_Jakarta_df=pd.read_csv('/content/drive/MyDrive/Machine Learning/ Kasus_Covid_Jakarta.csv')
+Kasus_Covid_Jakarta_df.info()
+Kasus_Covid_Jakarta_df.head(10)
+Kasus_Covid_Jakarta_df.tail(10)
